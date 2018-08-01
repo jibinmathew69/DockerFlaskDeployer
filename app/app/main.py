@@ -4,7 +4,7 @@ from sanic import response
 def make_app():
     app = Sanic(__name__)
 
-    url = "https://34.209.178.90:8001/db"
+    url = "http://34.209.178.90:8001/db"
 
     @app.route('/')
     async def usersignup(request):
